@@ -70,15 +70,23 @@ h1, h2, h3, h4, h5 {
     width:90%;
     justify-content: space-evenly;
     margin-bottom:3%;
+    padding-left:15%;
 }
 .navlogo{
     display:flex;
     flex-direction:row-reverse;
+    margin-top:2rem;
+    width:80%;
+    margin-bottom:2rem;
 }
 .nav-child{
 	margin-left:3%;
 }
-
+.inno{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
 h1{
 	font-size:62.5%;
 }
@@ -93,7 +101,6 @@ h1{
     font-size:1.5rem;
     width:10rem;
     align-content:center;
-    margin-left:6rem;
 }
 .top{
     display:flex;
@@ -127,6 +134,7 @@ h1{
 }
 
 .contact{
+    padding-top:1rem;
 	padding-left:10%;
 	padding-bottom:5%;
 }
@@ -138,12 +146,22 @@ h1{
 
 @media(max-width: 500px){
     .navbar{
+        display:flex;
         flex-direction:column;
         text-align:center;
         margin-right:3rem;
+        width:112%;
+        justify-content: center;
+
     }
     .nav-logo{
         margin-right:2rem;
+    }
+    .inno{
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items:center;
     }
     .nav-child{
         border:1px solid lightgray;
@@ -155,11 +173,10 @@ h1{
     .header{
         font-size:5rem;
         text-align:center;
+        justify-content:center;
     }
     .started{
         font-size:1rem;
-        width:7rem;
-        text-align: center;
     }
     .top{
         flex-direction:column;
@@ -176,9 +193,26 @@ h1{
     .header{
         font-size:7rem;
     }
+    .navbar{
+        margin-left:0%;
+        width:113%;
+        padding-left:0%;
+        margin-right:0%;
+    }
+    .navlogo{
+        marig
+    }
+    .logo{
+        padding-bottom:1rem;
+        margin-left:7rem;
+    }
+    .inno{
+        flex-direction:column;
+        display:flex;
+        align-items: center;
+    }
     .started{
         font-size:1.4rem;
-        margin-left:3rem;
     }
     .circle-one{
         display:none;
